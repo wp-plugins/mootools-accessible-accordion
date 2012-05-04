@@ -2,15 +2,15 @@
 Contributors: Theofanis Oikonomou, Kontotasiou Dionysia
 Tags: accessible, WAI, ARIA, mootools, widgets
 Requires at least: 3.0.1
-Tested up to: 3.2.1
-Stable tag: 2.0
+Tested up to: 3.3.2
+Stable tag: 3.0
 
 MooTools Accessible Accordion is a WAI-ARIA Enabled Accordion Plugin for Wordpress
 
 == Description ==
 
 MooTools Accessible Accordion is an accordion of your blog's recent posts, recent comments and archives
-and uses the MooTools WAI-ARIA enabled accordion.
+and uses the MooTools WAI-ARIA enabled accordion. Use it in a wide widget area, like the "First Footer Widget Area".
 
 == Installation ==
 
@@ -43,3 +43,5 @@ This work was supported by the [Informatics and Telematics Institute](http://www
 * initial release
 = 2.0 =
 * Version 2.0
+= 3.0 =
+* Version 3.0

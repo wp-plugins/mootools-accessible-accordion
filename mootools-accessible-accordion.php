@@ -3,8 +3,8 @@
 Plugin Name: MooTools Accessible Accordion
 Plugin URI: http://wordpress.org/extend/plugins/mootools-accessible-accordion/
 Description: WAI-ARIA Enabled Accordion Plugin for Wordpress
-Author: Theofanis Oikonomou, Kontotasiou Dionysia
-Version: 2.0
+Author: Kontotasiou Dionysia
+Version: 3.0
 Author URI: http://www.iti.gr/iti/people/ThOikon.html, http://www.iti.gr/iti/people/Dionisia_Kontotasiou.html
 */
 include_once 'getRecentPosts.php';
@@ -27,6 +27,9 @@ function MooToolsAccessibleAccordion_init() {
 
         wp_register_script('MooToolsAccessibleAccordion', ( get_bloginfo('wpurl') . '/wp-content/plugins/mootools-accessible-accordion/lib/MooToolsAccessibleAccordion.js'));
         wp_enqueue_script('MooToolsAccessibleAccordion');
+		
+		wp_register_script('accordion', ( get_bloginfo('wpurl') . '/wp-content/plugins/mootools-accessible-accordion/lib/accordion.js'));
+        wp_enqueue_script('accordion');
 
         wp_register_style('MooToolsAccessibleAccordion_css', ( get_bloginfo('wpurl') . '/wp-content/plugins/mootools-accessible-accordion/lib/MooToolsAccessibleAccordion.css'));
         wp_enqueue_style('MooToolsAccessibleAccordion_css');
